@@ -1,0 +1,74 @@
+﻿@model MusicEquipmentStore.Models.ProductTable
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<html>
+<body>
+
+
+
+</body>
+</html>
+
+
+@section scripts{
+    @*<link href="~/css/style.css" rel="stylesheet" asp-file-version="true" />*@
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        
+
+        $("#buttonGet").click(function () {
+              
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:5088/api/Cart/GetCartItems",
+                    data: data,
+                    success: function (res) {
+                        alert("success");
+                        console.log(res);
+                    },
+                    error: function (xhr) {
+                        console.log('Error ', xhr);
+                    }
+                });
+        });
+
+        $("#buttonPost").click(function () {
+            let cart = { "Id": 4, "ProductName": "piano", "ProductId": 3, "ProductPrice": "30", "ProductQuantity": "5", "UserName": "John", "UserAddress": "Dublin" };
+
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:5088/api/Cart/AddToCart",
+                data: JSON.stringify(cart),
+                contentType: "application/json; charset=utf-8",
+                success: function (res) {
+                    alert("success");
+                    console.log(res);
+                    alert(JSON.stringify(cart));
+                },
+                error: function (xhr) {
+                    console.log('Error ', xhr);
+                }
+            });
+        });
+
+        $("#buttonDelete").click(function () {
+            var data = { productid: 1, username: "Snehal" };
+            $.ajax({
+                type: "DELETE",
+                url: "http://localhost:5088/api/Cart/DeleteCart/" + data.productid + "/" + data.username,
+                // data: data,
+                success: function (res) {
+                    alert("success");
+                    console.log(res);
+                },
+                error: function (xhr) {
+                    console.log('Error ', xhr);
+                }
+            });
+        });
+    </script>
+}

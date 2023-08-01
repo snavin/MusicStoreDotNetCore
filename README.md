@@ -2,7 +2,7 @@
 
 * Login Credentials for Application: Username - navin, Password - 1234
 
-* Note (Password base64 Hash): We have added the base64 hash encryption for login authentication can be validated by the User table in the database which was not included in the code during the presentation ------- Discussed with Paul in the class to add a note in read me.
+* Note (Password base64 Hash): We have added the base64 hash encryption for login authentication can be validated by the User table in the database which was not included in the code during the presentation 
 
 SQL BackUp file provided with steps in order to restore it for the application.
 

@@ -1,21 +1,14 @@
 # B9IS123_10612366_10622824_10612648_10605157_InformationSystems
 
-* Login Credentials for Application : Username - navin , Password - 1234
+* Login Credentials for Application: Username - navin, Password - 1234
 
-* Note (Password base64 Hash): We have added the base64 hash encryption for login authentication can be validated by the User table in the database which was not included in the code during the presentation ------- Discussed with Paul in the class to add note in read me.
+* Note (Password base64 Hash): We have added the base64 hash encryption for login authentication can be validated by the User table in the database which was not included in the code during the presentation ------- Discussed with Paul in the class to add a note in read me.
 
-SQL BackUp file provided with stpes in order to restore it for the application.
-
-Team No - D
-------------
-Student ID: 10612366, Name: Navin Kumar Singupuram
-Student ID: 10605157, Name: Atul Krishna Sulli Radhakrishna
-Student ID: 10612648, Name: Snehal Rajendrakumar Baviskar
-Student ID: 10622824, Name: Sonavva Nandagaon
+SQL BackUp file provided with steps in order to restore it for the application.
 
 Overview:
 --------------
-Ecommerce is simply the act of buying and selling goods or services online without requiring people to physically come to your business. Millions of people worldwide enjoy playing musical instruments, thus they search for the finest offers that will enable them to purchase their preferred instruments. The advent of internet technology has altered how people purchase for musical instruments, and many now choose to do their shopping online to save time and money. Here, we quickly examine the reasons why you should purchase musical instruments from our store online.
+E-commerce is simply the act of buying and selling goods or services online without requiring people to physically come to your business. Millions of people worldwide enjoy playing musical instruments, thus they search for the finest offers that will enable them to purchase their preferred instruments. The advent of internet technology has altered how people purchase musical instruments, and many now choose to do their shopping online to save time and money. Here, we quickly examine the reasons why you should purchase musical instruments from our store online.
 1. Easy and Convenient:
      It is simpler and more practical to purchase musical instruments from our store.
 2. Reasonable Price:
@@ -34,11 +27,11 @@ Technology Concepts:
 3.	CSS key frames and bezier effect
 4.	Sweet Alert Modal Popup for View Checkout in the 
 5.	Razor pages
-6.	Client side pagination suing JQuery	
+6.	Client side pagination using JQuery	
 
  Middleware:
 1.	Entity Framework using the database and code base first approach
-2.	Ado.Net for web api services implementation
+2.	Ado.Net for web API services implementation
  Back-End:
 1.	SQL Server 2019 v18.1.1
 2.	Postman Tool for web services
@@ -103,10 +96,9 @@ Attribution Report:
 5.	FontAwesome
 6.	Images and Videos are taken from pixel, unsplash
 
-Group D – Individual Contributions
+Contributions
 ----------------------------------------------
-Member 1: 10622824 – Sonavva Nandagaon
--------------------------------------
+
 * Initially as a team decided to user JSON data to show prodcuct related details for which added a JSON service,JSON data and a Javascript functionality to           fetch JSON data which later moved to database.
 * Product Controller with pre defined funtions has been added to add methods which helped in consuming API methods and added a search functionality to search the     product.
 * Database Context added with concept of ADO.NET and updated the connection string which helps in connecting database through controller.
@@ -119,8 +111,6 @@ Member 1: 10622824 – Sonavva Nandagaon
 * CartViewModel, SmallCartViewModel, Category and Product models added in order to help seperation of functionality.
 * In order to increase or decrease product item quantity in cart page, added Add and decrease methods in ProductCartController which consumes update API               method from the CartController.
 * Update API service method in the CartController has been added in order to update cart details in the database. 
----------------------------------
-Member 2: 10612366 – Navin Kumar Singupuram
 ---------------------------------
 * To start initially, rewritten the layout page using bootstrap, css and few cdn’s to modify the Navbar to match the design and the theme of the idea.
 * Have added the customized footer using Bootstrap 5 and Css 3, font awesome
@@ -138,8 +128,6 @@ Member 2: 10612366 – Navin Kumar Singupuram
 * Sweet Alert Modal popup JQuery for the View Checkout of the products.
 * JQuery implementation on the view cart page to shown only the Navbar not the footer.
 ------------------------------------
-Member 3: 10612648 - Snehal Rajendrakumar Baviskar
-------------------------------------
 * Initially added some css and html changes to implement navbar in hero page and also added.
 * Data Access Layer added and GetProductById method added to fetch product details from the database
 * Was not able to access Data Access Layer, And did some research on a start up class hence added a startup class with configuration services to make it work.
@@ -152,8 +140,6 @@ Member 3: 10612648 - Snehal Rajendrakumar Baviskar
 * Created a view for the login with the help of razor view and some html.
 * Functionality to show/hide password whenever user clicks on the eye icon so that user can view his password.
 * Added a method in the product cart controller 'AddToCart', To consume POST API method which is create in the cart controller.
---------------------------------------
-Member 4: 10605157 - Atul Krishna Sulli Radhakrishna
 --------------------------------------
 * Added HTML code changes for product content to show details in the Home Page.
 * Added Product model with required attributes of product details which helps in binding data to show in the Home page.

@@ -13,10 +13,6 @@ Student ID: 10605157, Name: Atul Krishna Sulli Radhakrishna
 Student ID: 10612648, Name: Snehal Rajendrakumar Baviskar
 Student ID: 10622824, Name: Sonavva Nandagaon
 
-Git Hub Link
---------------
-https://github.com/sonunandagaon/B9IS123_10612366_10622824_10612648_10605157_InformationSystems.git
-
 Overview:
 --------------
 Ecommerce is simply the act of buying and selling goods or services online without requiring people to physically come to your business. Millions of people worldwide enjoy playing musical instruments, thus they search for the finest offers that will enable them to purchase their preferred instruments. The advent of internet technology has altered how people purchase for musical instruments, and many now choose to do their shopping online to save time and money. Here, we quickly examine the reasons why you should purchase musical instruments from our store online.
